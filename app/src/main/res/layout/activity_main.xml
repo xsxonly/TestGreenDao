@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.xushengxia.testgreendao.MainActivity">
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加100个学生信息"/>
+    <Button
+        android:id="@+id/btn_removeman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除性别为男的学生信息"/>
+
+    <Button
+        android:id="@+id/btn_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查找年龄大于18的同学"/>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改张三的信息"/>
+
+    <Button
+        android:id="@+id/btn_query20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询id为20的学生"/>
+
+</LinearLayout>
